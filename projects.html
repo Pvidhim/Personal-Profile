@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidhi Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/09c52e5db9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="logo.PNG"  width="50px"><b>I D H I</b>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home </a></li>
+                    <li><a href="aboutme.html">About me </a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact me</a></li </ul>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h1><b>PROJECTS</b></h1>
+        <section class="projects">
+            <div class="project">
+                <a href="https://github.com/Pvidhim/ExplainableBrainTumorClassification"><img src="braintumorimage.jpg" alt="Project 1"></a>
+                <h5>Explainable Brain Tumor Classification</h5>
+                <ul>
+                    <li>EfficientNet to detect the presence of Brain tumor and classify them by processing MRI images (accuracy = 98%).</li>
+                    <li>Libraries like Keras and tensorflow were used .</li>
+                    <li>XAI model GradCAM showed images with hues representing the areas which led to the prediction.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Pvidhim/MLproject_TravelPackagePurchasePrediction"><img src="travelpackagepredictionimage.jpeg" alt="Project 2"></a>
+                <h5>Travel Package Purchase Prediction</h5>
+                <ul>
+                    <li>Built a machine learning model using Python to predict whether a customer will purchase a travel package based on various customer features like age, city tier, income,etc.</li>
+                    <li>Implemented and trained models using algorithms like XGBoost and LightGBM to perform binary classification(Will Purchase / Not Purchase).</li>
+                    <li>Deployed a Flask web application to allow users to input customer data and receive predictions using render.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Pvidhim/Demand_Forecasting"><img src="demandforecastinginventoryimage.jpeg" alt="Project 3" ></a>
+                <h5>Demand Forecasting</h5>
+                <ul>
+                    <li>Developed a Machine Learning model to predict the demand for products in inventory in real-time.</li>
+                    <li>Libraries like Pandas, Numpy, Matplotlib, Seaborn, and Scikit-learn were used.</li>
+                    <li>XGBoost proved to be the best model with accuracy pf 87%.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Pvidhim/OS--Workload-Scheduler"><img src="operatingsystemimage.jpeg" alt="Project 4" ></a>
+                <h5>OS- Workload Scheduling Algorithms</h5>
+                <ul>
+                    <li>Modeled a discrete-event process scheduler for a general operating system using C++.</li>
+                    <li> Structured widely recognised scheduling algorithms such as FCFS and Round Robin.</li>
+                    <li>Computed metrics including average turnaround time and response time for each scheduling strategy.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Pvidhim/Zcoder"><img src="zcodersimage.jpeg" alt="Project 5"></a>
+                <h5>Zcoders- Social Web App for coders</h5>
+                <ul>
+                    <li>Introduced Personalised Profiles and Contest Calendar feature using React.js to enable users to create unique coding profiles and view upcoming contests with participation links.</li>
+                    <li> Accomplished Collaborative Learning functionality for real-time messaging function by enabling bi-directional communication between client and server.</li>
+                    <li>Key Technologies: React.js, Node.js, Socket.IO, MongoDB, Express.js</li>
+                </ul>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Pvidhim/Tree-walk-interpreter-"><img src="treewalkinterpreterimage.jpeg" width="30%" height="30%"> </a>
+                <h5>Tree Walk Interpreter</h5>
+                <ul>
+                    <li>Defined syntax for a programming language, outlining keywords, data types, and control structures.</li>
+                    <li>Programmed a lexer for tokenization and a parser to construct an Abstract Syntax Tree (AST).</li>
+                    <li>Enforced language rules through semantic analysis and using OOPS in Python to traverse the AST and execute code actions.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Pvidhim/Options-Pricing"><img src="optionspricingimage.jpeg" width="30%" height="30%"> </a>
+                <h5>Options and it's pricing models</h5>
+                <ul>
+                    <li>Developed Option Pricing Models to estimate the price of European Call and Put options.</li>
+                    <li>Implemented the Black-Scholes-Merton model and N-step Binomial model using Python libraries such as NumPy and Yfinance..</li>
+                    <li>Generated and analysed Payoff graphs for European options.</li>  
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <div class="footer">
+            <div class="leftfooter">
+                <div class="social">
+                    <span class="icons">
+                        <a href="pvidhi949@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/vidhi-patel-627962254"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/918200785397"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/Pvidhim"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://discord.com/channels/@me/vidhi0044"><i class="fa-brands fa-discord"></i></a>
+                    </span>
+                </div>
+                <div class="rightfooter"></div>
+            </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Software developer .</i> ', '<i>Machine Learning Engineer .</i>', '<i>Data Analyst .</i>', '<i>Web Developer .</i>'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
